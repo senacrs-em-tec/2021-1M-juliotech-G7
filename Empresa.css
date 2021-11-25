@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e7e7e7;
+  flex-wrap: wrap;
+}
+
+header svg {
+  height: 50px;
+  width: 50px;
+}
+
+header img,
+footer img {
+  width: 196px;
+  height: 78px;
+}
+
+header h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+header input {
+  height: 30px;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  header {
+    height: 150px;
+  }
+}
+header input {
+  height: 30px;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding-left: 20px;
+}
+@media (max-width: 800px) {
+  header {
+    height: 150px;
+  }
+}
+footer {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e7e7e7;
+}
+#close {
+  z-index: 3;
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 400px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #e7e7e7;
+  z-index: 2;
+  padding-top: 200px;
+  border-right: black 1px solid;
+  padding-left: 20px;
+}
+#overlay h1 {
+  color: black;
+  font-size: 40px;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+a:hover {
+  text-decoration: none;
+}
+a {
+  color: black;
+}
+main h1 strong {
+  color: #ffffff;
+  font-size: 21px;
+}
+main h1 {
+  font-size: 20px;
+  float: left;
+  width: 80%;
+}
+main img {
+  width: 30%;
+  float: left;
+  height: 233px;
+}
+main div {
+  width: 580px;
+  height: 230px;
+  float: left;
+  background-color: #9bb7d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.espaco {
+  margin-top: 90px;
+}
+.space {
+  margin-top: 55px;
+}
+
+main img:nth-child(3) {
+  height: 316px;
+}
+.outra {
+  margin-top: 55px;
+}
+.texto3 {
+  margin-top: 55px;
+}
+.img3 {
+  margin-top: 50px;
+  height: 250px;
+}
+.texto4 {
+  margin-top: 55px;
+  height: 270px;
+}
+.texto5 {
+  margin-top: 55px;
+  height: 270px;
+}
+.img4 {
+  margin-top: 55px;
+  height: 300px;
+}
+.texto6 {
+  margin-top: 55px;
+  height: 270px;
+}
+.img5 {
+  margin-top: 55px;
+  height: 260px;
+}
+.texto1 {
+  margin-top: 55px;
+}
+.img1 {
+  margin-top: 55px;
+}
+
+footer h1 {
+  font-size: 30px;
+}
